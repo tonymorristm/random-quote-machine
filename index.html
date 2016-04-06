@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>FCC Project: Random Quote Machine</title>
+    
+    
+    
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.3/animate.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+        <link rel="stylesheet" href="css/style.css">
+
+    
+    
+    
+  </head>
+
+  <body>
+
+    <body>
+	<div class="content container"> <!-- used to get a responsive fixed width container -->
+	
+		<p id="date"></p> <!-- I would like to format the date different here, 
+                           if possible: full day full month date, full year ex.  Wednesday February 24, 2016-->
+			
+		<hr class="separator">
+		
+		<!-- this button will generate the random quote -->
+		<button type="button" class="btn btn-lg btn-default" id="quoteGen">Random Quote</button>
+		
+		<!-- this is the box to hold and display the quotes and authors -->
+		<div id="box">
+			<h2 id="quote"></h2>	
+		</div><!-- box -->
+  	
+		<!-- this button will tweet the current quote + author that is displayed. Tweet Script is used -->
+		<div class="tweet">
+			<a class="btn btn-lg btn-default twitter" href="https://twitter.com/intent/tweet" target="_blank" id="tweetQuote">Tweet the Quote</a>
+	  </div><!-- tweet -->
+	
+	</div><!-- content container -->
+</body>
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+
+        <script src="js/index.js"></script>
+
+    
+    
+    
+  </body>
+</html>
